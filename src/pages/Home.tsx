@@ -1,9 +1,8 @@
-// @ts-ignore
 import { v4 as uuidv4 } from "uuid";
 
 export default function Home() {
   const uniqueId = uuidv4();
-  console.log("Here is the code: ", uniqueId);
+  console.log("UUID:", uniqueId);
 
-  return <h1>Home</h1>;
+  return <h1 className="text-center mt-10">Home</h1>;
 }
